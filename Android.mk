@@ -104,7 +104,7 @@ $(files): PRIVATE_MODULE := alsactl_initdir
 $(files): $(ALSAINIT_DIR)/%: $(LOCAL_PATH)/alsactl/init/% | $(ACP)
 	$(transform-prebuilt-to-target)
 
-ALL_PREBUILT += $(files)
+#ALL_PREBUILT += $(files)
 
 endif
 endif
